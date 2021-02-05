@@ -23,4 +23,4 @@ app.get('/screen', function (req, res) {
     });
 });
 
-app.listen(PORT, HOST, (err) => console.info('listening on', PORT));
+app.listen(PORT, HOST, (err) => console.info('listening on PORT / HOST:', PORT, '/',  HOST));
